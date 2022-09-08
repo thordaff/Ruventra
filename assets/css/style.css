@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap');
+
+*{
+    font-family: 'Quicksand';
+    font-style: normal;  
+}
+
+
+/* Navbar Start */
+
+.navbar{
+    margin-top: 10px;
+}
+
+.navbar-brand{
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: bold;
+}
+
+.navbar ul li{
+    margin-left: 50px;
+}
+
+.navbar ul li:hover{
+    font-weight: bold;
+    color: black;
+}
+
+.dropdown a{
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    
+    text-decoration: none;
+}
+
+.dropdown a:hover{
+    color: black;
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+.dropdown ul li{
+    position: relative;
+    right: 30px;
+}
+
+.dropdown ul li a{
+    font-weight: 500;
+}
+
+.dropdown ul li a:hover{
+    color: white;
+    background: #7d2e97;
+}
+
+
+.navbar-btn{
+    text-decoration: none;
+
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    color: white;
+    background: #49105C;
+    border-radius: 5px;
+}
+
+.navbar-btn:hover{
+    color: white;
+    background: #7d2e97;
+}
+
+/* Navbar End */
+
+/* Heroes Start */
+
+.background{
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #D57BFF 100%);
+}
+
+.heroes .btn{
+    padding: 5px;
+    border: none;
+
+    color: white;
+    background: #49105C;
+}
+
+.heroes .btn:hover{
+    border: none;
+
+    color: white;
+    background: #7d2e97;
+}
+
+/* Heroes End */
+
+/* List Start */
+
+.background-lst{
+    position: relative;
+    margin-bottom: 100px;
+    top: 20px;
+
+    background: linear-gradient(360deg, rgba(217, 217, 217, 0) 0%, #D57BFF 100%);
+}
+
+.eclipse{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+
+    background: linear-gradient(180deg, rgba(186, 104, 200, 0) 0%, #BA68C8 100%);
+    box-shadow: 0px 20px 32px 15px rgba(0, 0, 0, 0.15);
+}
+
+.eclipse{
+    position: relative;
+}
+
+.title-text{
+    color: black;
+    font-weight: bold;
+}
+
+.eclipse .music{
+    position: absolute;
+    top: 60px;
+    left: 60px;
+
+    color: rgba(255, 255, 255, 0.150);
+}
+
+.eclipse .msc{
+    position: absolute;
+    top: 120px;
+    left: 100px;
+
+    z-index: 1;
+}
+
+.eclipse .location{
+    position: relative;
+    color: rgba(255, 255, 255, 0.150);
+
+    top: 60px;
+    left: 90px;
+}
+
+.eclipse .lctn{
+    position: absolute;
+    top: 120px;
+    left: 40px;
+
+    z-index: 1;
+}
+
+
+/* List End */
+
+/* Profile Start */
+
+.background-prfl{
+    position: relative;
+    top: 100px;
+    
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #D57BFF 100%);
+}
+
+.title{
+    margin-bottom: 100px;
+}
+
+.title h4{
+    font-weight: 300;
+}
+
+.title h1{
+    font-weight: bolder;
+    letter-spacing: 0.25em;
+}
+
+.text{
+    margin-bottom: 50px;
+}
+
+.profile-card{
+    position: relative;
+    left: 100px;
+
+    margin-bottom: 100px;
+}
+
+.rectangle{
+    width: 258px;
+    height: 334px;
+
+    background: white;
+    border-radius: 20px;
+}
+
+footer a{
+    font-weight: bold;
+    text-decoration: none;
+
+    color: black;
+}
+
+/* Profile End */
+
+
+@media (max-width: 768px) {
+
+    /* Heroes Start */
+
+    .heroes-img{
+        position: relative;
+        left: 30px;
+    }
+
+    .heroes{
+        text-align: center;
+    }
+
+    /* Heroes End */
+
+    /* list Start*/
+
+    .eclipse{
+        width: 250px;
+        height: 250px;
+        border-radius: 100%;
+    
+        background: linear-gradient(180deg, rgba(186, 104, 200, 0) 0%, #BA68C8 100%);
+        box-shadow: 0px 20px 32px 15px rgba(0, 0, 0, 0.15);
+    }
+
+    .eclipse .music{
+        position: absolute;
+        left: 30px;
+        top: 50px;
+    }
+
+    .eclipse .msc{
+        position: absolute;
+        top: 120px;
+        left: 90px;
+    
+        z-index: 1;
+    }
+
+    .eclipse .location{
+        position: absolute;
+        left: 70px;
+        top: 50px;
+    }
+}

@@ -1,0 +1,125 @@
+/* Navbar Start */
+
+.auth-text{
+    text-decoration: none;
+
+    color: black;
+}
+
+.auth-text:hover{
+    font-weight: bold;
+
+    color: black;
+}
+
+.auth{
+    position: relative;
+}
+
+.cardbox{
+    position: absolute;
+
+    width: 750px;
+    height: 450px;
+    top: 30px;
+    left: 185px;
+
+    border: 1px black solid;
+    border-radius: 25px;
+    border: none;
+    background: white;
+    box-shadow: 0px 25px 50px 25px rgba(0, 0, 0, 0.05);
+}
+
+.cardbox-reg{
+    position: absolute;
+
+    width: 750px;
+    height: 450px;
+    top: 30px;
+    left: 185px;
+
+    border: 1px black solid;
+    border-radius: 25px;
+    border: none;
+    background: white;
+    box-shadow: 0px 25px 50px 25px rgba(0, 0, 0, 0.05);
+}
+
+form.register{
+    position: absolute;
+    top: 13%;
+}
+
+form{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    align-items: center;
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.username input{
+    width: 10cm;
+}
+
+.email{
+    margin-top: 20px;
+}
+
+.email input{
+    width: 10cm;
+}
+
+.password{
+    margin-top: 20px;
+}
+
+.password input{
+    width: 10cm;
+}
+
+.button button{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 43%;
+
+    background: none;
+    border: none;
+}
+
+.auth-api{
+    position: relative;
+}
+
+.auth-api p{
+    position: absolute;
+    top: 490px;
+    left: 43%;
+
+}
+
+.auth-api button{
+    position: absolute;
+    font-weight: bold;
+    top: 530px;
+    left: 25%;
+    width: 50%;
+
+    color: white;
+    background: #49105C;
+}
+
+.auth-api a button{
+    text-decoration: none;
+
+    color: white;
+}
+
+.auth-api a button:hover{
+    color: black;
+}
