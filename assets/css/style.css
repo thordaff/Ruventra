@@ -177,12 +177,18 @@
 }
 
 .title h4{
+    position: relative;
+
+    right: 23px;
     font-weight: 300;
 }
 
 .title h1{
+    position: relative;
     font-weight: bolder;
     letter-spacing: 0.25em;
+
+    right: 20px;
 }
 
 .text{
@@ -202,6 +208,12 @@
 
     background: white;
     border-radius: 20px;
+}
+
+footer{
+    position: relative;
+    bottom: 20px;
+    right: 5px;
 }
 
 footer a{

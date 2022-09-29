@@ -55,10 +55,7 @@
             <p>Ruventra merupakan website penyedia tiket konser musik nusantara. Ruventra sendiri bekerjasama dengan para penyelenggara event sebagai wadah tiket dan dalam membantu penjualan tiket konser. Ruventra sendiri terlahir dari gagasan di Kota Pelajar D.I Yogyakarta yang dimana banyaknya event - event konser musik di daerah Yogyakarta yang masih menggunakan cara lama untuk mempromosikan dan menjual tiket.</p>
           </div>
           <div class="row g-4 p-5 row-cols-1 row-cols-lg-2 profile-card">
-            <div class="feature col">
-              <div class="rectangle"></div>
-            </div>
-            <div class="feature col">
+            <div class="feature col mx-auto">
               <div class="rectangle"></div>
             </div>
           </div>
